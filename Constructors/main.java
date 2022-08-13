@@ -52,7 +52,7 @@ public class main {
         Bike b1 = new Bike("KTM Duke", 300000);
         b1.printInfo();
 
-        Bike b2 = new Bike();
+        Bike b2 = new Bike();   
           b2.model = "Honda";
           b2.name = "Shine";
           
