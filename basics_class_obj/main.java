@@ -4,7 +4,7 @@ class A {
     int data; //member data/variable
 
     A(int data) {
-         this.data = data; // constructor --> not a member
+         this.data = data; // constructor 
     }
 
     public void print() {
