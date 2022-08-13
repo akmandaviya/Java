@@ -22,13 +22,14 @@ class Base {
     
      //constructor 4    
     Derived (String name) {
-      super(name);
+      super(name); //super keyword
       System.out.println("paramterised constructor of derived class");
     } 
   }
 
+
 public class cons1 {
     public static void main(String[] args) {
-      Derived obj = new Derived("hello world");
+      Derived obj = new Derived("hello world");   
   }
 }   
