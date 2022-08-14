@@ -1,4 +1,4 @@
-package basics;
+package Classes_Objects;
 //classes and objects
 
 //class fruit taste,color,season are properies
