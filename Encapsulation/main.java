@@ -1,4 +1,4 @@
-package basics_class_obj;
+package Encapsulation;
 
 class A {
     int data; //member data/variable
