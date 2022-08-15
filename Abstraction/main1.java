@@ -3,6 +3,7 @@ package Abstraction;
 
 interface Animal {
     public void walk ();
+
 }
 
 //multiple inheritance using interface
@@ -11,6 +12,7 @@ interface Herbivore {
 }
 
 class Horse implements Animal,Herbivore {
+    @Override
    public void walk () {
     System.out.println("walk with 4 legs");
    }
